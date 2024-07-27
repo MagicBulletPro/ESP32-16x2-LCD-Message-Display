@@ -47,7 +47,7 @@ void setup() {
 
 void loop() {
   lcd.setCursor(0, 0); // Set the cursor to the first column, first row
-  lcd.print("Hello, World!"); // Print message on the first row
+  lcd.print("Magic-Bullet"); // Print message on the first row
   delay(1000); // Wait for 1 second
 
   lcd.clear(); // Clear the display
