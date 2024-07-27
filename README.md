@@ -38,7 +38,7 @@ int lcdColumns = 16;
 int lcdRows = 2;
 
 // Create an LCD object with the I2C address, columns, and rows
-LiquidCrystal_I2C lcd(0x##, lcdColumns, lcdRows);
+LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);
 
 void setup() {
   lcd.init(); // Initialize the LCD
